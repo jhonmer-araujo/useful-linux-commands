@@ -1,5 +1,5 @@
-# useful-linux-commands
-Some useful linux commands that can help us in the basic management of linux servers
+# Some useful linux commands
+That can help us in the basic management of linux servers
 
 ## Show files and directories within the current directory:
 - Order by date: `ls -ltr`
