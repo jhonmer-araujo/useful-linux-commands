@@ -1,7 +1,16 @@
 # useful-linux-commands
 Some useful linux commands that can help us in the basic management of linux servers
 
-## Size files, directories, disk space, space availables, etc:
+## Show files and directories within the current directory:
+- Order by date: `ls -ltr`
+- Order by extension: `ls -X`
+- Including hidden: `ls -a`
+- Including complete information: `ls -lh`
+- Returns the contents of all subdirectories recursively: `ls -R`
+- Sort the results by file size: `ls -S`
+- Show the most recent modified file or directory: `ls -ltr | tail -n 1`
+
+## Show Size files and directories, disk space, space available, etc:
 - Show disk space usage: `df -h`
 - Show the filesystem names, sizes and percentage of the used: `df -h --output=source,size,pcent`
 - Show size of a directory: `du -sh /var`
