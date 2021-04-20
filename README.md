@@ -18,7 +18,6 @@ That can help us in the basic management of linux servers
 - Show 5 largest directories within the a directory: `du -h /var/ | sort -rh | head -5`
 
 ## Monitoring performance
-
 - Display all the running and active real-time processes in ordered list: `top`
 - Like `top` but with a friendly interface: `htop`
 - Show statistics of virtual memory, kernel threads, disks, processes, interrupts, CPU activity and more `vmstat`
@@ -27,3 +26,4 @@ That can help us in the basic management of linux servers
 - Analize network packagets that received or transferred on a specific interface over a network: `tcpdump -i eth0`
 - Monitoring incoming and outgoing network packets statistics as well as interface statistics: `netstat -a | more`
 - Show system input and output storage device statistics: `iostat`
+- Gives free RAM on the system: `free`
