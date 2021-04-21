@@ -27,6 +27,7 @@ That can help us in the basic management of linux servers
 - Show size of a directory: `du -sh directory`
 - Show size of directories and first-level subdirectories: `du -shc directory*`
 - Show 5 largest directories within the a directory: `du -h directory | sort -rh | head -5`
+- Find files greated than 10 MBytes: `find / -type f -size +10M -exec ls -lh {} \
 
 ## Managment and monitoring performance
 - Display all the running and active real-time processes in ordered list: `top`
