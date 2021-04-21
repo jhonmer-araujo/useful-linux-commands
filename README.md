@@ -44,4 +44,4 @@ That can help us in the basic management of linux servers
 - Create a user: `adduser username`
 - Connect to remote server using ssh: `ssh username@ipaddress`
 - Show processes of a description given: `ps -aux | grep 'description'`
-- Kill a process of a PID given: `Kill -9 PID`
+- Kill a process of a PID given: `kill -9 PID`
